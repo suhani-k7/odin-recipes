@@ -1,1 +1,2 @@
 # odin-recipes
+This project is a simple recipe website created as part of the Foundations course on The Odin Project. The goal is to build a multi-page site using only HTML and CSS to reinforce core concepts of web development such as page structure, semantic markup, linking between pages, and basic styling.
