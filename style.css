@@ -1,12 +1,11 @@
 body{
     background-color: #D67AB1;
-    background-image:url("https://marketplace.canva.com/EAGJg7J7QdY/1/0/1600w/canva-pink-and-white-cute-bordered-background-instagram-post-E7y3Ps0gXs0.jpg");
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20210926/pngtree-cute-pink-ink-background-with-stars-image_907643.png");
     background-size: cover;
     font-size: 45px;
     color: #333;
     font-family:Arial, Helvetica, sans-serif;
     margin: 30px;
-  background-repeat: no-repeat;    /* prevents tiling */
   background-position: center;     /* centers the image */
   height: 100vh;                   /* full viewport height */
   margin: 0;
