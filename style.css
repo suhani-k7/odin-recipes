@@ -54,3 +54,8 @@ img{
     margin: 0 auto;
     border-radius: 30px;
 }
+
+.first{
+      display: flex;
+      justify-content: center;
+}
