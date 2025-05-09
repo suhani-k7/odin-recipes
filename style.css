@@ -1,9 +1,15 @@
 body{
     background-color: #D67AB1;
+    background-image:url("https://marketplace.canva.com/EAGJg7J7QdY/1/0/1600w/canva-pink-and-white-cute-bordered-background-instagram-post-E7y3Ps0gXs0.jpg");
+    background-size: cover;
     font-size: 45px;
     color: #333;
     font-family:Arial, Helvetica, sans-serif;
     margin: 30px;
+  background-repeat: no-repeat;    /* prevents tiling */
+  background-position: center;     /* centers the image */
+  height: 100vh;                   /* full viewport height */
+  margin: 0;
 }
 
 h1{
