@@ -51,12 +51,13 @@ li{
 a{
     font-size: 20px;
     text-align: left;
-    margin: 10px 0;  
+    margin: 10px 0;
 }
 
 img{
     display: block;
     margin: 0 auto;
+    margin-top: 20px;
     border-radius: 30px;
 }
 
