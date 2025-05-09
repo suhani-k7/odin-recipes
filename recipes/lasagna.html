@@ -6,10 +6,22 @@
     <link rel="stylesheet" href="../style.css">
 
     <title>Lasagna</title>
+    <style>
+    .heart::before {
+      content: "♥";
+      color: pink;
+      font-size: 50px;
+      text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black; 
+    }
+    </style>
 </head>
 <body>
     <img src="https://www.allrecipes.com/thmb/HSPj4Ncs5f-36CFQ4M2_YSwXbUs=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-19344-Homemade-Lasagna-beauty-4x3-450e3ec3bc454e4a805443bee77c5be8.jpg">
-    <h1>Description</h1>
+    <h1><span class="heart"></span>Description<span class="heart"></span></h1>
     <p>This is my mom's special homemade lasagna recipe with a meaty, made-from-scratch tomato sauce and a deliciously cheesy filling. A more traditional homemade lasagna filling would be made with ricotta but my mom's recipe calls for a blend of small-curd cottage cheese and Parmesan. I have found none better anywhere. Serve with a leafy green salad and crusty garlic bread.</p>
     <h2>Ingredients:</h2>
     <ul>

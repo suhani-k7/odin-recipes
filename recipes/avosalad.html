@@ -6,10 +6,22 @@
     <link rel="stylesheet" href="../style.css">
 
     <title>AvoSalad</title>
+    <style>
+    .heart::before {
+      content: "♥";
+      color: pink;
+      font-size: 50px;
+      text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black; 
+    }
+    </style>
 </head>
 <body>
     <img src="https://www.allrecipes.com/thmb/jHaW0_eXE1HA-nCRZaOo7Cz963U=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/19960-avocado-salad-VAT-001-4x3-64241afdc3b04d00a9372e1573eac6f7.jpg">
-    <h1>Description</h1>
+    <h1><span class="heart"></span>Description<span class="heart"></span></h1>
     <p>This avocado salad is a delicious combination of ripe avocados, sweet onions, fresh tomatoes, and cilantro. This recipe is so easy to make and very colorful — I think you'll like it!</p>
     <h2>Ingredients:</h2>
     <ul>
